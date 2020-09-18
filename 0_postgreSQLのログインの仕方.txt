@@ -1,0 +1,10 @@
+■下記コマンドをコマンドプロンプトに打ち込む
+psql -U postgres
+pass：TDSLrewa0613
+
+■コマンドプロンプトからSQL実行
+psql -U postgres -f ファイル名.sql
+
+■DBにログインした状態でSQL実行
+下記は時間測定できる
+\timing \i ファイル名.sql
